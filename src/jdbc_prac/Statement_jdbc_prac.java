@@ -31,7 +31,7 @@ public class Statement_jdbc_prac {
         // execute the query
         // add library
         ResultSet rs = state.executeQuery(str);
-
+// result set is used when we need to select ll the statements
         while (rs != null) {
             while (rs.next()) {
                 System.out.print(rs.getInt(1)+" ");
