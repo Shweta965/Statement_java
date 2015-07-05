@@ -31,7 +31,7 @@ public class PrepareState_java {
         ps.setString(5, "ca");
         int i = ps.executeUpdate();
         System.out.println("first table update" + i);
-
+// value of i represent 1 because it was executed succefuly
         ps.setInt(1, 3);
         ps.setString(2, "ami");
         ps.setString(3, "hayward");
