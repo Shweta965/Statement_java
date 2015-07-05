@@ -15,7 +15,7 @@ import java.sql.Statement;
  *
  * @author Shweta
  */
-public class Jdbc_prac {
+public class Statement_jdbc_prac {
 
     /**
      * @param args the command line arguments
