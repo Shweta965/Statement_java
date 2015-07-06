@@ -27,7 +27,8 @@ public class callable_in_jdbc {
         cs.setString(3, "new york");
         cs.setString(4, "united States");
        int k = cs.executeUpdate();
-        if(k>0){
+       // if we want to insert less record in the table  
+       if(k>0){
             System.out.println("successfull");  
         }
 
