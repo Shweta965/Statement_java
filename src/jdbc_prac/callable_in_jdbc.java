@@ -30,6 +30,7 @@ public class callable_in_jdbc {
        // if we want to insert less record in the table  
        if(k>0){
             System.out.println("successfull");  
+            
         }
 
     }
